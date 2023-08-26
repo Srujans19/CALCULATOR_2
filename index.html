@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-based CSalculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="header">
+            <p class="logo">CASSIUS</p>
+            <div class="dummy"></div>
+            <a href="https://github.com/Srujans19" target="_blank" title="Srujans19@Github">
+                <img src="./images/github-icon.svg" alt="Github">
+            </a>
+        </div>
+        <div class="display">
+            <p class="input"></p> <!-- 12345678910.&div;&times;&minus;&plus;&equals; -->
+            <p class="result"></p>
+        </div>
+        <div class="button-panel">
+            <!-- First row -->
+            <button id="clear" data-key="Enter" class="action span2">CLEAR</button>
+            <button id="del" data-key="Backspace" class="action">DEL</button>
+            <button id="div" data-key="/" class="operator">&div;</button>
+
+            <!-- Second row -->
+            <button id="seven" data-key="7" class="number">7</button>
+            <button id="eight" data-key="8" class="number">8</button>
+            <button id="nine" data-key="9" class="number">9</button>
+            <button id="times" data-key="*" class="operator">&times;</button>
+
+            <!-- Third row -->
+            <button id="four" data-key="4" class="number">4</button>
+            <button id="five" data-key="5" class="number">5</button>
+            <button id="six" data-key="6" class="number">6</button>
+            <button id="minus" data-key="-" class="operator">&minus;</button>
+
+            <!-- Fourth row -->
+            <button id="one" data-key="1" class="number">1</button>
+            <button id="two" data-key="2" class="number">2</button>
+            <button id="three" data-key="3" class="number">3</button>
+            <button id="plus" data-key="+" class="operator">&plus;</button>
+
+            <!-- Fifth row -->
+            <button id="decimal" data-key="." class="number">&bull;</button>
+            <button id="zero" data-key="0" class="number">0</button>
+            <button id="equals" data-key=" " class="operator span2">&equals;</button>
+        </div>
+    </div>
+    <div class="credits">
+        <p>Created by <a href="https://github.com/Srujans19" target="_blank" >Srujans19</a></p>
+    </div>
+</body>
+</html>
